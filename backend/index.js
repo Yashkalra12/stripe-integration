@@ -1,6 +1,7 @@
 const cors=require("cors");
 const express=require("express");
-const stripe=require("stripe")("sk_test_51PFx47SJRlGEPJpxlMXKPmlUVbK7yxuj0P2fsUJOuZKIc7ehMpoFIwFF7HJ7ChRIz4NAuPktXJMqUVkR4871MT7e00YqTKKBvo");
+const stripe=require("stripe")("");
+//put secret key here
 const uuid=require("uuid");
 
 const app=express();

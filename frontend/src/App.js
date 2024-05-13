@@ -48,7 +48,8 @@ function App() {
           Learn React
         </a>
         <StripeCheckout 
-        stripeKey="pk_test_51PFx47SJRlGEPJpxwRwnGMCu04OoVz2TKHuxiYTwLGEhhZogxkA3EFzjwacyznS3r0nonLk4D2DXsbnptfUcOs2700ue2Zd3MW"
+        //put publishable key here
+        stripeKey=""
         token={makePayment}
         name="Get Started"
         amount={Product.price*100}>
